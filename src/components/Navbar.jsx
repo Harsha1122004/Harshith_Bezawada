@@ -4,7 +4,7 @@ import "../styles/navbar.css";
 import { FaInstagram, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
 
-const Navbar = () => {
+const navbar = () => {
   return (
     <nav className="navbar">
       <div className="nav-left">
@@ -56,4 +56,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default navbar;

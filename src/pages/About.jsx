@@ -18,7 +18,7 @@ import {
   SiSqlite,
 } from "react-icons/si";
 
-import Navbar from "../components/Navbar";
+import Navbar from "../components/navbar";
 import "../styles/About.css";
 
 const skills = [
