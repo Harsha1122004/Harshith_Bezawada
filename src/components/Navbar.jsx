@@ -32,7 +32,7 @@ const navbar = () => {
             <FaInstagram />
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/Harsha1122004"
             target="_blank"
             rel="noopener noreferrer"
             className="social-link"
