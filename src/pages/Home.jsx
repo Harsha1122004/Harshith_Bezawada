@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 import "../styles/Home.css";
 import profileImage from "../assets/profile.jpg";
 
