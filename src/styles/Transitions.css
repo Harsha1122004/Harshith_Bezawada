@@ -1,0 +1,27 @@
+/* Styles for the page transition animation */
+
+/* Entering state: starting opacity is 0, moves from the right */
+.page-enter {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+/* Entering state: transitioning to opacity 1, moves to its final position */
+.page-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+}
+
+/* Exiting state: starting opacity is 1, moves to the left */
+.page-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Exiting state: transitioning to opacity 0, moves off-screen to the left */
+.page-exit-active {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+}
