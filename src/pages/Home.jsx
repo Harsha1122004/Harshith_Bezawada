@@ -1,18 +1,14 @@
 import React from "react";
-import Navbar from "../components/navbar";
+import navbar from "../components/navbar";
 import "../styles/Home.css";
 import profileImage from "../assets/profile.jpg";
 
 const Home = () => {
-  // Replace this placeholder with your actual Google Drive resume link
-  const resumeLink =
-    "https://drive.google.com/file/d/1YsTiEoPKxFlPhk4JnODBayvw59QpXgmP/view?usp=sharing";
-  const whatsappNumber = "7075765587";
-  const whatsappLink = `https://wa.me/${whatsappNumber}`;
+  // ... (rest of the code)
 
   return (
     <div className="home-container">
-      <Navbar />
+      <navbar />
       <section className="hero-section">
         <div className="hero-content">
           <p className="hero-quote">
@@ -27,7 +23,7 @@ const Home = () => {
           </p>
           <div className="hero-buttons">
             <a
-              href={resumeLink}
+              href="https://drive.google.com/uc?export=download&id=1YsTiEoPKxFlPhk4JnODBayvw59QpXgmP"
               target="_blank"
               rel="noopener noreferrer"
               className="resume-button"
@@ -35,7 +31,7 @@ const Home = () => {
               Resume
             </a>
             <a
-              href={whatsappLink}
+              href="https://wa.me/7075765587"
               target="_blank"
               rel="noopener noreferrer"
               className="lets-talk-button"
