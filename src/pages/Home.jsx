@@ -4,9 +4,9 @@ import "../styles/Home.css";
 import profileImage from "../assets/profile.jpg";
 
 const Home = () => {
-  // Replace this placeholder with your actual Google Drive resume link
+  // Corrected Google Drive link for direct download
   const resumeLink =
-    "https://drive.google.com/file/d/1YsTiEoPKxFlPhk4JnODBayvw59QpXgmP/view?usp=sharing";
+    "https://drive.google.com/uc?export=download&id=1YsTiEoPKxFlPhk4JnODBayvw59QpXgmP";
   const whatsappNumber = "7075765587";
   const whatsappLink = `https://wa.me/${whatsappNumber}`;
 
